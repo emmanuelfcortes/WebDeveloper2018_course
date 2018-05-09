@@ -1,0 +1,117 @@
+/* to white CSSS, follow this model:
+	
+	SELECTOR{
+		property: value value value;
+		}
+	Selectors are acessible like this:
+	.class
+	#id
+	* (all the elements);
+	element
+	element1, element2;
+	element1 element2 (will be applied in the elements2 inside the element1)
+	element1 > element2 (will be applied in the elements2 immediatly lower than element1)
+	element1 + element2 (will be applied in the element2 immediatly after the element1)	
+	element:hover (will apply the css when mouse  the element);
+	element:last-child (apply the css in the first occurency of the element);
+	element:first-child (apply the css in the last occurency of the element);
+	!important - will bypass the cascade precedence of the command aplicacion.
+ */
+body{
+background-image: url(sunrise.jfif);
+background-size: cover;
+
+
+}
+
+footer{
+
+	background-color: rgba(240,255,0,255); /* a color can be represented like this*/
+	text-align: center;
+	cursor: no-drop;
+	border: 2px dashed black;
+}
+
+footer:hover{
+
+	background-color: rgba(0,255,0,255); /* a color can be represented like this*/
+	text-align: center;
+	cursor: no-drop;
+	border: 2px dashed black;
+
+}
+
+h2,p {
+	
+	color: #579C53;
+	text-align: center;
+	border: 10px solid #999/* this is the representation of a color*/;
+	cursor: copy;
+}
+
+/*
+p{
+	color: rgb(120,1,1); /* a color can be represented like this too ******
+	border: 5px dashed red;
+	cursor: copy;
+}
+*/
+
+.navegator{
+	display: inline-block;
+}
+/*#SECTION1{
+	background-color: blue;
+}*/
+
+.HOME:hover{
+
+	color: orange;
+	text-align: left;
+	background-color: red;
+}
+.home2:hover{
+	text-align: left;
+	background-color: black;
+}
+
+.paragrafo{
+	background-color: black;
+	/*text-transform: lowercase;*/
+	text-decoration: underline;
+	line-height: 50px; /*space between lines*/
+	font-style: italic;
+	font-weight: bold;
+	font-size: 130%;
+	font-family: "pangolin", "Arial" cursive ;
+	/*"arial", "times new roman"*/
+}
+.H2O{
+	max-width: 20%;
+	max-height:30%;
+	
+}
+
+
+
+.caixas{ /* using boxmodels: content, padding (internal space), border, margin (external space; */
+
+	display: inline-block;
+	margin: 2px 5px 2px 50px;
+	
+}
+.caixas2{
+	background-color: white;
+	color: blue; /*color of content*/
+	width: 100px; /*largura do content*/
+	height: 10px; /*altura do content*/ 
+	padding: 5px 20px 5px 20px; /*  top, right, bottom, left . Padding is the internal area around the context*/
+	border: solid 5px purple; /* border is a external area around the box;*/
+	margin: 5px 200px 2px 10px; /* top, right, bottom, left */
+}
+.caixas2:hover{
+	background-color: red;
+	color:white;
+}
+
+	

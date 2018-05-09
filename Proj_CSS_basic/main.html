@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>USING CSS</title>
+	<!--The code reading function in cascade. This means that the code is processed to top from down; the commands more below are processing after the upper lines.   
+		There are three ways to use CSS in HTML code:
+		1- using the link to a external file.-->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
+	<!-- 2- Using a code implementation like a function inside html page.-->
+
+	
+		<style type="text/css">
+	
+		
+		p{ 
+			background-color:green;
+		}
+	
+		</style>
+	
+	<!-- 3 - Using a implementation code inside html tag with attribute style -->
+
+</head>
+<body>
+	
+	<header style="background-color: red; color: white">
+	
+		
+		<nav>
+			<ul>
+				<li class="navegator"> <a href="main.html">Home </a></li>
+				<li class="navegator"> <a href="http://www.google.com.br"> Google</a></li>
+				<li class="navegator"><a href="http://www.yahoo.com.br">Inside Yahoo</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section id="SECTION1">
+		<div class="H2O">
+			<h2> HOME <!--class="HOME" -->
+			</h2>
+			<h2 class="HOME home2"> FIRUQUINHA
+			</h2>
+			<h2 class="HOME"> HOME
+			</h2>
+			<h2 class="HOME"> HOME
+			</h2>
+			<h2 class="HOME"> HOME
+			</h2>
+		</div>
+		
+		<ol>
+			<li class="caixas"><img class="IMAGEM" src="dog.jpg"></li>
+			<li class="caixas caixas2">CAIXA 1 </li>
+			<li class="caixas caixas2">CAIXA 2 </li>
+			<li class="caixas caixas2">CAIXA 3 </li>
+
+		</ol>
+		<!-- 
+		<div class="imagebotoes">
+			
+			<div class="IMAGEM">
+				<img src="dog.jpg">
+			</div>
+
+			<div class="botoes1">
+						<P>CAIXA 1</P>;
+
+			</div>
+
+			<div class="botoes2">
+			
+			<P>CAIXA 2</P>;
+
+			</div>
+
+
+			<div class="botoes3">
+			
+			<P>CAIXA 3</P>;
+
+			</div>
+
+			
+		</div>
+	-->
+
+		<p class="paragrafo"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod empor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</section>
+	<footer>
+		email: jorge@aragao.com.br<br>
+		phone: (61) 3232-1414<br>
+	</footer>
+
+</body>
+</html>

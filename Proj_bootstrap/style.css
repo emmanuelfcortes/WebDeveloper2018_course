@@ -1,0 +1,15 @@
+ .btn-primary1{
+ 	background-color: purple;
+ }
+
+  .btn-primary1:hover{
+ 	background-color: orange;
+ }
+
+/* Index2*/
+
+.col{
+	background-color: gray;
+	border: solid 2px black;
+	/*text-align: center;*/
+}
