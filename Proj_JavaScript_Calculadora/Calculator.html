@@ -1,0 +1,26 @@
+<!DOCTYPE html >
+<html lang=pt-br>
+<head>
+	<title>CALCULATOR</title>
+</head>
+<body>
+	<!--
+	<p> Number1:<input type="number" name="valor1"></p><br>
+	<p> Number2:<input type="number" name="valor2"> </p><br>
+				<input type="submit" value="RESULTADO" >
+	-->			
+
+<script language="javascript" type="text/javascript">
+	var a= prompt("Digite o primeiro numero"); 
+	var b= prompt("Digite o segundo numero:");
+	var o= prompt("Digite o simbolo da operacao: + - * / ");
+	 if (o=="+") var c = Number(a) + Number(b);
+	 if (o=="-") var c = Number(a) - Number(b);
+	 if (o=="*") var c = Number(a) * Number(b);
+	 if (o=="/") var c = Number(a) / Number(b);
+	 if(o!="+" && o!="-" && o!="*" && o!="/") c="No bonus";
+	 alert("O valor da operacao e " + c);
+
+</script>
+</body>
+</html>

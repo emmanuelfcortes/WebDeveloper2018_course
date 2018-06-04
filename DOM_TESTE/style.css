@@ -1,0 +1,9 @@
+#h12{
+	color: green;
+}
+
+.hatch{
+	text-decoration: line-through;
+	/*text-decoration-style: line-through;*/
+	color: blue;
+}

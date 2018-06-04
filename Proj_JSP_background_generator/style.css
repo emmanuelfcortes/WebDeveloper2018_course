@@ -1,0 +1,16 @@
+body {
+    
+    text-align: center;
+    background: linear-gradient(to right,#00ff00,#0000ff);
+
+}
+
+.random:hover{
+
+	cursor: pointer;
+
+}
+
+h3{
+background: linear-gradient(to right,#800040,#0000ff);
+}
